@@ -26,13 +26,14 @@ body
 
  .cabeçalho a {
   float:left;
+  text-align: center;
   display: block;
   text-align:right;
   padding: 50px 80px;
   text-decoration:double;
   font-size: 20px;
   color: black;
-  text-align: center;
+ 
 }
 
 .cabeçalho a:hover {
@@ -178,6 +179,14 @@ body
   float:left;
   padding: 1.8%;
 }
+.rodape-direitos{
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 0px;
+  float: left;
+  text-align: center;
+}
+
 
 /*página sobre*/
 .sobre{
@@ -204,3 +213,6 @@ body
     border: 1px dashed #e5156a;
     display: flex;
   }
+
+
+  
