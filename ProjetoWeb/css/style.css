@@ -215,21 +215,12 @@ body
   }
 
   /*página contato*/
-  .submit{
-    margin-left: 15px;
-    font-weight: bold;
-  }
-  .nome{
-    margin-left: 15px;
-    font-weight: bold;
-  }
-  .email{
-    margin-left: 15px;
-    font-weight: bold;
-  }
-  .mensagem{
-    margin-left: 15px;
-    font-weight: bold;
+  .secao-1{
+    font-weight: bolder;
+    margin-left: 750px;
+    margin-bottom: 215px;
+    margin-top: 200px;
+    font-size: x-large;
   }
 
 
