@@ -1,0 +1,204 @@
+
+*{
+  margin: 0; padding: 0;
+
+}
+
+body
+{
+  margin: 0;
+  font-family: Forma regular;
+}
+
+/*logo do cabeçalho*/
+#logo
+{
+  margin:0;
+  padding: 18px;
+  float: left;
+}
+
+/*inicio do css do cabeçalho*/
+.cabeçalho {
+  overflow: hidden;
+  background-color: #fcf39d;
+}
+
+ .cabeçalho a {
+  float:left;
+  display: block;
+  text-align:right;
+  padding: 50px 80px;
+  text-decoration:double;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.cabeçalho a:hover {
+  background-color:#fcf39d ;
+  color:#e5156a;
+}
+
+.cab
+{
+  float: right;
+  margin: 25px;
+  padding: 18px;
+}
+
+.cabe{
+ float:right;
+ margin: 25px;
+ padding: 20px;
+}
+
+
+/*css do carrossel de imagens*/
+
+.carrossel{
+  height: 500px;
+  margin: 10PX;
+  padding: 40px;
+  background: #d5e5ec;
+}
+
+.pr{
+  color: #e5156a;
+  text-align: center;
+  font-size: 35px;
+  
+}
+
+.container {
+  position: relative;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-wrapper {
+  overflow-x: auto;
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  font-size: 20px;
+  line-height: 250px;
+  width: 40px;
+  color: #fff;
+  transition: all 600ms ease-in-out;
+  background: linear-gradient(to left, transparent 0%, black 200%);
+  opacity: 0.1;
+  cursor: pointer;
+  border: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 1;
+}
+
+.arrow-right {
+  right: 0;
+  left: auto;
+  text-align: right;
+  background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
+}
+
+.item {
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+  transition: all 600ms ease-in-out;
+  opacity: 0.5;
+}
+
+.current-item {
+  opacity: 1;
+}
+
+/* This is from w3schools */
+
+.gallery-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.gallery-wrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.cyan {background: cyan;}
+
+.deeppink {background: deeppink;}
+
+.turquoise {background: turquoise;}
+
+.darkblue {background: darkblue;}
+
+.purple {background: purple;}
+
+
+/*rodapé*/
+.rodape{
+  margin: 20px;
+  padding: 30px;
+}
+
+#linkr{
+  border: 1px solid rgb(255, 255, 255);
+  width: 30%;
+  float:left;
+  padding: 2%;
+}
+
+#aboutrod{
+  border: 1px solid rgb(252, 251, 251);
+  width: 30%;
+  float:left;
+  padding: 1.8%;
+}
+
+#redes{
+  border: 1px solid rgb(252, 251, 251);
+  width: 22%;
+  float:left;
+  padding: 1.8%;
+}
+
+/*página sobre*/
+.sobre{
+    height: 500px;
+    margin: 10px;
+    padding: 40px;
+    background: #fdfdfd;
+    border: 1px solid #88d0ed;
+    position: relative;
+  }
+
+  #img2 {
+    position: absolute;
+    left: 70px;
+    padding: 75px;
+    margin: 4px;
+  }
+
+ /* .info{
+    padding: 40px;
+    margin: 1px;
+    border: 1px solid #000203;
+    float: right;
+  }*/

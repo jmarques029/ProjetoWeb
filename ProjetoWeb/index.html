@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JC Encadernados</title>
+    <link rel="shortcut icon" href="img/stikers 08.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+<!--cabeçalho-->
+<header class="cabeçalho">
+  <img id = "logo" src="img/stikers 08.png" alt="Logo" width="90" height="80">
+  <a href="index.html"><strong>Início</strong></a>
+  <a href="about.html"><strong>Sobre</strong></a>
+  <a href="produtos.html"><strong>Produtos</strong></a>
+  <a href="contato.html"><strong>Contato</strong></a>
+  <img class="cab" src="img/126510.png" alt="carrinho" weidth="40" height="30">
+  <img class="cabe" src="img/conta.png" alt="conta" weidth="40" height="30">
+</header>
+
+<!--Carrossel de imagens-->
+<div class="carrossel" width="100%">
+ <p class="pr"><b>DESTAQUES</b></p>
+ <div class="container">
+   <button class="arrow-left control" aria-label="Previous image">◀</button>
+   <button class="arrow-right control" aria-label="Next Image">▶</button>
+   <div class="gallery-wrapper">
+     <div class="gallery">
+       <!--       <div class="item current-item cyan"></div>
+       <div class="item deeppink"></div>
+       <div class="item turquoise"></div>
+       <div class="item darkblue"></div>
+       <div class="item purple"></div> -->
+       <img src="img/CADERNO E CANETA.png" alt="Beach Image" class="item current-item">
+       <img src="img/cadernos.png" alt="Animal Image" class="item current-item">
+       <img src="img/Stickers.png" alt="Street Image" class="item current-item">
+       <img src="img/PAPEL DE EMBRULHO.png" alt="Zoo Image" class="item current-item">
+       <img src="img/SACOLA COM ETIQUETA.png" alt="Model Image" class="item current-item">
+     </div>
+   </div>
+ </div>
+</div>
+
+<!--Rodapé do site-->
+ <footer id="rodape" width="100%" height="100px">
+  <div id="linkr" width="34%">
+    <p><b>Links</b></p>
+   <a href="index.html"><strong>Início</strong></a>
+   <br> <a href="about.html"><strong>Sobre</strong></a>
+   <br> <a href="produtos.html"><strong>Produtos</strong></a>
+   <br> <a href="contato.html"><strong>Contato</strong></a>
+  </div>
+  <div id="aboutrod">
+    <p><b>Sobre</b></p>
+    <p>A loja JC Encadernados é uma empresa<br> de produtos encadernados feito a mão <br>criada em 2021 através de um amor por papelaria</p>
+  </div>
+  <div id ="redes">
+    <p><b>Redes Sociais</b></p>
+    <a href="https://www.instagram.com/encadernados_jc/">
+    <img src="img/logo-instagram-png-fundo-transparente4.png" alt="instagram" style="width:42px;height:42px;"></a>
+    <img src="img/whatsapp-logo-png.png" alt="whatsapp"style="width:42px;height:42px;">
+  </div>
+ </footer>
+
+
+ <script>
+  const controls = document.querySelectorAll(".control");
+let currentItem = 0;
+const items = document.querySelectorAll(".item");
+const maxItems = items.length;
+
+controls.forEach((control) => {
+  control.addEventListener("click", (e) => {
+    isLeft = e.target.classList.contains("arrow-left");
+
+    if (isLeft) {
+      currentItem -= 1;
+    } else {
+      currentItem += 1;
+    }
+
+    if (currentItem >= maxItems) {
+      currentItem = 0;
+    }
+
+    if (currentItem < 0) {
+      currentItem = maxItems - 1;
+    }
+
+    items.forEach((item) => item.classList.remove("current-item"));
+
+    items[currentItem].scrollIntoView({
+      behavior: "smooth",
+      inline: "center"
+    });
+
+    items[currentItem].classList.add("current-item");
+  });
+});
+
+ </script>
+</body>
+</html>
