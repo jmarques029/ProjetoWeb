@@ -216,11 +216,14 @@ body
 
   /*página contato*/
   .secao-1{
-    font-weight: bolder;
-    margin-left: 750px;
-    margin-bottom: 215px;
-    margin-top: 200px;
-    font-size: x-large;
+    height: 500px;
+    margin: 10px;
+    padding: 40px;
+    background: #fdfdfd;
+    border: 1px solid #88d0ed;
+    position: relative;
+    display: flex;
+    text-align: center;
   }
 
 
