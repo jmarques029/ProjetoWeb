@@ -244,6 +244,7 @@ body
   }
   .secao-2 form{
    flex-direction: column;
+
     
   }
   form label{
@@ -258,4 +259,7 @@ body
   }
   button :hover{
     color: #e5156a;
+  }
+  form textarea{
+    padding: 40px  50px;
   }
