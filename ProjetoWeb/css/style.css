@@ -224,6 +224,42 @@ body
     position: relative;
     display: flex;
     text-align: center;
+    background-color: #d5e5ec;
+  }
+  .secao-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 100px;
+   width: 100px; 
+   margin-left: 715px;
+   margin-top: 50px;
+
+  }
+  .secao-1 h1{
+    margin-left: 700px;
+    font-size: 2.5rem;
+    font-style: oblique;
+
+   
+  }
+  .secao-2 form{
+   flex-direction: column;
+    
+  }
+  form label{
+    color: black;
+    font-size: 17px;
+    
+  }
+  form input{
+    padding: 15px;
+    outline: none;
+    
+  }
+  button :hover{
+    color: #e5156a;
   }
 
 
