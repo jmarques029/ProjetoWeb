@@ -273,11 +273,21 @@ body
   form input{
     padding: 10px;
     outline: none;
-    
+    border-radius: 30px;
   }
+
   button :hover{
     color: #e5156a;
   }
+  
+  button{
+    font-size: medium;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #d5e5ec;
+  }
+
   form textarea{
     padding: 40px  50px;
+    border-radius: 20px;
   }
