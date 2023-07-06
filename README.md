@@ -21,9 +21,9 @@ O site possui cabeçalho com links que te redimenciona para qualquer página (In
 
 ### Diretórios
    
-   index.html 
-   about.html
-   contato.html
+   index.html ||
+   about.html ||
+   contato.html ||
    style.css
 
 
@@ -39,6 +39,6 @@ Nós criadores do site para loja "JC Encadernados" ficamos a disposição para n
 
 ## Contato
 
-Júlia Marques - jmarquescoq@gmail.com
-Renato Siqueira - renatosoareslemos19@gmail.com
+Júlia Marques - jmarquescoq@gmail.com ||
+Renato Siqueira - renatosoareslemos19@gmail.com ||
 Victor Costa - victorhugocostamachado04@gmail.com
