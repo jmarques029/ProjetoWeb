@@ -193,8 +193,7 @@ body
     height: 500px;
     margin: 10px;
     padding: 40px;
-    background: #fdfdfd;
-    border: 1px solid #88d0ed;
+    border: 3px solid #88d0ed;
     position: relative;
     display: flex;
   }
@@ -210,9 +209,28 @@ body
     padding: 250px;
     margin-top: 4px;
     margin-left: 70px;
-    border: 1px dashed #e5156a;
+    border: 2px dashed #d5e5ec;
     display: flex;
+    padding: 80px;
+
   }
+ .det{
+    color: #b6386c;
+    text-align:center;
+    font-size: 30px;  
+    margin: 0px;
+    padding: 20px;
+  }
+
+    .det2{
+      text-align:center;
+      font-size: 20px;
+      padding: 30px;
+    }
+
+    .sobrec{
+      float: right;
+    }
 
   /*página contato*/
   .secao-1{
